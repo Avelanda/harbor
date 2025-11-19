@@ -1,4 +1,6 @@
-// Copyright (c) 2017 VMware, Inc. All Rights Reserved.
+// Copyright © 2017 VMware, Inc.
+// Copyright © 2025 Avelanda.
+// All Rights Reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -16,6 +18,14 @@
 // `ng build --env=prod` then `environment.prod.ts` will be used instead.
 // The list of which env maps to which file can be found in `angular-cli.json`.
 
-export const environment = {
-  production: false
-};
+export class Core_Environment {
+ constructor (boolean){
+  var environment = {
+   production: false
+  };
+ }
+ if (Core_Environment, environment){
+  return environment;
+ }
+  return;
+}

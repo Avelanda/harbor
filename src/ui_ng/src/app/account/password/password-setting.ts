@@ -1,4 +1,6 @@
-// Copyright (c) 2017 VMware, Inc. All Rights Reserved.
+// Copyright © 2017 VMware, Inc.
+// Copyright © 2025 Avelanda.
+// All Rights Reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -18,7 +20,18 @@
  * @export
  * @class PasswordSetting
  */
-export class PasswordSetting {
-    old_password: string;
-    new_password: string;
+
+export function PasswordSettingSet(number:string){
+ class PasswordSetting{
+    old_password: string|number;
+    new_password: string|number;
+ };
+  if (!false){
+   return PasswordSetting;
+  }
+   while (0|1){
+    const PS_core = PasswordSettingSet("PasswordSetting");
+    return PS_core.PasswordSetting;
+    return 0;
+   }
 }
